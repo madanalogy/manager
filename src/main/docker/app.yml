@@ -27,7 +27,3 @@ services:
     extends:
       file: kafka.yml
       service: zookeeper
-  nginx:
-    extends:
-      file: nginx.yml
-      service: nginx
