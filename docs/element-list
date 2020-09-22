@@ -1,0 +1,14 @@
+dev.madanalogy.manager
+dev.madanalogy.manager.aop.logging
+dev.madanalogy.manager.config
+dev.madanalogy.manager.config.audit
+dev.madanalogy.manager.config.dbmigrations
+dev.madanalogy.manager.domain
+dev.madanalogy.manager.repository
+dev.madanalogy.manager.security
+dev.madanalogy.manager.service
+dev.madanalogy.manager.service.dto
+dev.madanalogy.manager.service.mapper
+dev.madanalogy.manager.web.rest
+dev.madanalogy.manager.web.rest.errors
+dev.madanalogy.manager.web.rest.vm
