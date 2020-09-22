@@ -1,5 +1,7 @@
 # manager
 
+[![Build Status](https://travis-ci.com/madanalogy/manager.svg?branch=master)](https://travis-ci.com/madanalogy/manager)
+
 This application is a simple item manager built for an undergraduate course in the National University of Singapore. Course code: CS3219. Course title: Software Engineering Principles and Practices.
 
 ## Development
