@@ -35,6 +35,18 @@
     "dtoSuffix": "DTO",
     "otherModules": [],
     "enableTranslation": false,
-    "blueprints": []
+    "blueprints": [],
+    "appsFolders": ["manager"],
+    "directoryPath": "../",
+    "clusteredDbApps": ["manager"],
+    "jwtSecretKey": "YTE4OTVmMmFjMGRlOTEyNDg2YWIzMzVhNGZiZmNjOGQ5ZjM1MGU1ZmIwOTVhYTAzZDI1MDg3ZjFmOTc4Yjg2MmQ3MTdlNjhlODIwNDk2MWY1ZWUxY2JiYTgwZDU0NzYwZDU5Yw==",
+    "dockerRepositoryName": "madanalogy",
+    "dockerPushCommand": "docker push",
+    "kubernetesNamespace": "default",
+    "kubernetesServiceType": "LoadBalancer",
+    "kubernetesUseDynamicStorage": false,
+    "ingressDomain": "",
+    "monitoring": "no",
+    "istio": false
   }
 }
