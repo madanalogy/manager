@@ -1,8 +1,10 @@
 steps:
-- name: 'gcr.io/cloud-builders/npm'
-  args: ['install']
-- name: 'gcr.io/cloud-builders/gradle'
-  args: ['bootJar', '-Pprod', 'jibDockerBuild']
+#- name: 'gcr.io/cloud-builders/npm'
+#  args: ['install']
+#- name: 'gcr.io/cloud-builders/gradle'
+#  args: ['bootJar', '-Pprod', 'jibDockerBuild']
+- name: 'ubuntu'
+  args: ['./gradlew', 'bootJar', '-Pprod', 'jibDockerBuild']
 - name: 'gcr.io/cs3219-madanalogy/docker-compose'
   args: ['src/main/docker/app.yml', 'up']
 - name: 'gcr.io/cloud-builders/docker'
